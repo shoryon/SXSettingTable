@@ -189,7 +189,7 @@
     if (indexPath.row == 0) {
         return 64.0f;
     }
-    return kSettingViewCommonRowCellH;
+    return [super tableView:tableView heightForRowAtIndexPath:indexPath];
 }
 
 @end

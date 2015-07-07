@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E586F2B3-9C06-4E48-BD5A-B5EE24A2067A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SXSettingTable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>639FC2E4B0E2B0ACB566213882E1822E69A7B3E7</key>
+		<string>https://github.com/shoryon/SXSettingTable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SXSettingTable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>639FC2E4B0E2B0ACB566213882E1822E69A7B3E7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shoryon/SXSettingTable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>639FC2E4B0E2B0ACB566213882E1822E69A7B3E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>639FC2E4B0E2B0ACB566213882E1822E69A7B3E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SXSettingTable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
