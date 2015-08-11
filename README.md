@@ -1,5 +1,7 @@
 # SXSettingTable
-  可扩展型静态表格
+# 可扩展型静态表格
+
+example:
 
 - (void)setupGroup0 {
     
