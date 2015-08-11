@@ -1,5 +1,5 @@
 # SXSettingTable
-iOS可配置型静态表格
+  可扩展型静态表格
 
 - (void)setupGroup0 {
     
