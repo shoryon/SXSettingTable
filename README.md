@@ -149,7 +149,9 @@ example:
     };
 
     settingSwitchItem3.switchValueChangedHandler = ^{
+
         //当开关状态改变事件
+
     };
     
     group.items = @[settingSwitchItem1, settingSwitchItem2, settingSwitchItem3];
