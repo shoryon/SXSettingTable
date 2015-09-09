@@ -11,9 +11,7 @@
 @interface SettingGroup : NSObject
 
 @property (copy, nonatomic) NSString *header;
-
 @property (copy, nonatomic) NSString *footer;
-
 @property (strong, nonatomic) NSArray *items;
 
 + (instancetype)group;

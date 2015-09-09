@@ -147,6 +147,9 @@
     settingSwitchItem3.operation = ^{
         //在这里跳转到下一个控制器也可以哟
     };
+    settingSwitchItem3.switchValueChangedHandler = ^{
+        //当开关状态改变事件
+    };
     
     group.items = @[settingSwitchItem1, settingSwitchItem2, settingSwitchItem3];
 }

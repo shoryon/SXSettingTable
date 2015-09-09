@@ -10,8 +10,8 @@
 
 @implementation SettingGroup
 
-+ (instancetype)group
-{
++ (instancetype)group {
+    
     return [[self alloc] init];
 }
 

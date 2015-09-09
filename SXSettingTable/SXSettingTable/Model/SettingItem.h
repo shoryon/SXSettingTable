@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^IWSettingItemOperation)();
+typedef void(^SettingItemHandler)();
 
 @interface SettingItem : NSObject
 
@@ -19,8 +19,7 @@ typedef void(^IWSettingItemOperation)();
 @property (nonatomic, strong) UIColor *subTitleColor;
 @property (nonatomic, copy) NSString *badgeValue;
 @property (nonatomic, assign) BOOL arrow;
-
-@property (nonatomic, copy) IWSettingItemOperation operation;
+@property (nonatomic, copy) SettingItemHandler operation;
 
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title subTitle:(NSString *)subTitle;
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title;

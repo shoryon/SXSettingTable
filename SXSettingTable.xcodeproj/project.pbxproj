@@ -189,12 +189,12 @@
 		9C1287551B4BAD0A008714B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9C12875A1B4BAD0A008714B7 /* SettingGroup.h */,
+				9C12875B1B4BAD0A008714B7 /* SettingGroup.m */,
 				9C1287561B4BAD0A008714B7 /* SettingArrowItem.h */,
 				9C1287571B4BAD0A008714B7 /* SettingArrowItem.m */,
 				9C1287581B4BAD0A008714B7 /* SettingCustomItem.h */,
 				9C1287591B4BAD0A008714B7 /* SettingCustomItem.m */,
-				9C12875A1B4BAD0A008714B7 /* SettingGroup.h */,
-				9C12875B1B4BAD0A008714B7 /* SettingGroup.m */,
 				9C12875C1B4BAD0A008714B7 /* SettingImageItem.h */,
 				9C12875D1B4BAD0A008714B7 /* SettingImageItem.m */,
 				9C12875E1B4BAD0A008714B7 /* SettingItem.h */,
@@ -532,6 +532,7 @@
 				9C12874A1B4BAC64008714B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C12874B1B4BAC64008714B7 /* Build configuration list for PBXNativeTarget "SXSettingTableTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				9C12874D1B4BAC64008714B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,16 +19,21 @@
 }
 
 - (SettingGroup *)addGroup {
+    
     SettingGroup *group = [SettingGroup group];
+    
     [self.groups addObject:group];
+    
     return group;
 }
 
 - (id)initWithStyle:(UITableViewStyle)style {
+    
     return [super initWithStyle:UITableViewStyleGrouped];
 }
 
 - (id)init {
+    
     return [super initWithStyle:UITableViewStyleGrouped];
 }
 
@@ -70,7 +75,6 @@
     SettingGroup *group = self.groups[indexPath.section];
     
     cell.item = group.items[indexPath.row];
-    
     cell.indexPath = indexPath;
     
     if (self.disabledCellSelection) {
@@ -123,7 +127,7 @@
                 destVc.title = arrowItem.title;
                 [self.navigationController pushViewController:destVc animated:YES];
             } else {
-                NSLog(@"This navigationController is nil ");
+                NSLog(@"This navigation controller was nil ");
             }
         }
     }

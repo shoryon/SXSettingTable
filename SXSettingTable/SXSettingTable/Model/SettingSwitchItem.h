@@ -8,9 +8,12 @@
 
 #import "SettingItem.h"
 
+typedef void(^SwitchValueChangedHandler)();
+
 @interface SettingSwitchItem : SettingItem
 
 @property (nonatomic, copy) NSString *key;
+@property (nonatomic, copy) SwitchValueChangedHandler switchValueChangedHandler;
 
 + (instancetype)itemWithTitle:(NSString *)title key:(NSString *)key;
 + (instancetype)itemWithTitle:(NSString *)title subTitle:(NSString *)subTitle key:(NSString *)key;

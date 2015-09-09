@@ -22,7 +22,6 @@
  *  禁用选中cell样式
  */
 @property (nonatomic, assign) BOOL disabledCellSelection;
-
 @property (nonatomic, strong) NSMutableArray *groups;
 
 - (SettingGroup *)addGroup;

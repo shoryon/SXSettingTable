@@ -60,6 +60,10 @@
     SettingSwitchItem *item = (SettingSwitchItem *)self.item;
     
     [[NSUserDefaults standardUserDefaults] setObject:@([switchView isOn]) forKey:item.key];
+    
+    if (item.switchValueChangedHandler) {
+        item.switchValueChangedHandler();
+    }
 }
 
 - (UIImageView *)arrowView {
