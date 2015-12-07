@@ -43,7 +43,15 @@
 #define kSettingViewCommonRowCellArrowViewHeight 17
 #define kSettingViewCommonRowBadgeButtonImage @"Settings.bundle/common_setting_cell_badge"
 
+#define kSettingViewCommonRowCellIconViewBorder 15.0f
+#define kSettingViewCommonRowCellIconViewSize CGSizeMake(25.0f, 25.0f)
+
+#define kSettingViewCommonRowCellTitleViewBorder 5.0f
+#define kSettingViewCommonRowCellTitleLableHeightScale 0.6f
+#define kSettingViewCommonRowCellTitleLableTextColor [UIColor blackColor]
 #define kSettingViewCommonRowCellTitleLableFontSize 16
+#define kSettingViewCommonRowCellSubTitleLableTextColor [UIColor blackColor]
+#define kSettingViewCommonRowCellSubTitleLableFontSize 13
 
 #define kSettingViewCommonRowCellH 48.0f
 #define kSettingViewCommonRowCellBackgroundImageGroupFirst @"Settings.bundle/common_setting_cell_background"

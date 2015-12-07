@@ -12,7 +12,7 @@
 @implementation SettingViewController
 
 - (NSMutableArray *)groups {
-    if (_groups == nil) {
+    if (!_groups) {
         _groups = [NSMutableArray array];
     }
     return _groups;
