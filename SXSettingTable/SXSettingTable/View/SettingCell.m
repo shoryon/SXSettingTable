@@ -61,7 +61,9 @@
     
     SettingSwitchItem *item = (SettingSwitchItem *)self.item;
     
-    [[NSUserDefaults standardUserDefaults] setObject:@([switchView isOn]) forKey:item.key];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:@([switchView isOn]) forKey:item.key];
+    [defaults synchronize];
     
     if (item.switchValueChangedHandler) {
         item.switchValueChangedHandler();
