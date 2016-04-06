@@ -219,13 +219,13 @@
     
     // 设置标题和文本颜色
     self.titleView.text = self.item.title;
-    self.titleView.textColor = self.item.titleColor;
+    self.titleView.textColor = self.item.titleColor ? self.item.titleColor : kSettingViewCommonRowCellTitleLableTextColor;
     
     // 设置子标题和文本颜色
     if (self.item.subTitle) {
         self.subTitleView.hidden = NO;
         self.subTitleView.text = self.item.subTitle;
-        self.subTitleView.textColor = self.item.subTitleColor;
+        self.subTitleView.textColor = self.item.subTitleColor ? self.item.subTitleColor : kSettingViewCommonRowCellSubTitleLableTextColor;
     } else {
         self.subTitleView.hidden = YES;
     }
